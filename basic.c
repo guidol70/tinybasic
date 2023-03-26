@@ -240,6 +240,10 @@
 /* debug mode switch */
 #define DEBUG 0
 
+/* Init lexliteral & outliteral */
+int lexliteral;
+int outliteral;
+
 /*
  * the core basic language headers including some Arduino device stuff
  */
